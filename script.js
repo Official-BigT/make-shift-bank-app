@@ -1,7 +1,7 @@
 // This is a simple ATM simulation program that allows users to add funds, check balance, withdraw money, and transfer money.
 // It uses HTML for the user interface and JavaScript for the logic.
 // The program starts with an initial balance of 5000 and a transfer charge of 20.75.
-var initialBal = 5000;
+var initialBal = 10000;
 var account = 0;
 var charge = 20.75;
 function addFunds() {
@@ -20,7 +20,7 @@ function withdraw() {
     initialBal = initialBal - withdrawalAmount;
     alert(initialBal);
   } else if (initialBal < withdrawalAmount) {
-    alert("YOU NEED GET MONEY THIS KAIN MONEY FIRST SENIOR MAN!!");
+    alert("YOU NEED GET THIS KAIN MONEY FIRST SENIOR MAN!!");
   } else {
     alert("INSUFFICIENT FUNDS!!");
   }
@@ -39,4 +39,4 @@ function transfer() {
   }
 }
 
-console.log (6*2)
+console.log(6 * 2);
